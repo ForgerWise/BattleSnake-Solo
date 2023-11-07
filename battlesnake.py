@@ -134,8 +134,6 @@ This is a example of your data:
 
 
 def move(game_state: typing.Dict) -> typing.Dict:
-    game_state["game"]["ruleset"]["settings"]["foodSpawnChance"] = 0
-    game_state["game"]["ruleset"]["settings"]["minimumFood"] = 3
     is_move_safe = {
         "up": True,
         "down": True,
