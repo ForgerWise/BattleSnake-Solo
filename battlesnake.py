@@ -1,27 +1,27 @@
 import copy
-import random
 import typing
 from typing import Dict, List, Tuple
 import heapq
-from collections import defaultdict, deque
 
-# APIへのアクセスポイント
-# Yamata-no-Orochi.pbl-b.repl.co
+# import time
+
+# API:
+# TODO: Your API of snake
 
 # info is called when you create your Battlesnake on play.battlesnake.com
 # and controls your Battlesnake's appearance
 # TIP: If you open your Battlesnake URL in a browser you should see this data
 
 
-def info() -> typing.Dict:  # 蛇のカスタマイズ
+def info() -> typing.Dict:
     print("INFO")
 
     return {
         "apiversion": "1",
-        "author": "g08",  # TODO: Your Battlesnake Username
-        "color": "#ffd770",  # TODO: Choose color
-        "head": "tongue",  # TODO: Choose head
-        "tail": "weight",  # TODO: Choose tail
+        "author": "ForgerWise",
+        "color": "#00ff00",
+        "head": "top-hat",
+        "tail": "coffee",
     }
 
 
@@ -41,7 +41,8 @@ def end(game_state: typing.Dict):
 def move(game_state: typing.Dict) -> typing.Dict:
     # start_time = time.perf_counter()
     """
-    This it the part to declare variables"""
+    This it the part to declare variables
+    """
     length_of_body = game_state["you"]["length"]  # Length of your snake
     my_body = game_state["you"]["body"]
     my_head = game_state["you"]["head"]  # Coordinates of your head
