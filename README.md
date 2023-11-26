@@ -27,4 +27,4 @@ Finds the path to the tail and the path to the nearest food.
 
 ## Result:
 
-The program consistently achieves a score of around 2500.
+The program consistently achieves a score of around 3700 ~ 3800. The best score is 4100+.
