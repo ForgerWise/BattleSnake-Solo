@@ -6,6 +6,14 @@ You should follow this link to build your battlesnake on Replit and replace the 
 
 [https://github.com/BattlesnakeOfficial/starter-snake-python](https://github.com/BattlesnakeOfficial/starter-snake-python)
 
+If you download the file on replit to your PC. You can run it by the command
+
+    battlesnake play --url http://0.0.0.0:8000 -W 7 -H 7 --foodSpawnChance 0 --minimumFood 3 --browser
+
+If you want to run on the replit server, you can use the command
+
+    battlesnake play --url <YOUR URL> -W 7 -H 7 --foodSpawnChance 0 --minimumFood 3 --browser
+
 ## Solo Rules:
 
 1. Solo
